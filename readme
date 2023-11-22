@@ -1,0 +1,35 @@
+# Stickman Drawing Program
+
+Author: Jeremiah E. Ochepo
+Last Edited: 2/15/2020 (7 PM)
+
+## Description
+
+This Python program uses a GUI to create a simple drawing of a stickman. The stickman can be customized in terms of size and color. The program utilizes the `graphics` library for the graphical user interface.
+
+## Usage
+
+1. **Size Selection:**
+   - Click the "Large," "Medium," or "Small" button to select the size of the stickman.
+
+2. **Color Selection:**
+   - Click the "Color" button to add color to the stickman. The colors are randomly chosen from a predefined list.
+
+3. **Erasing:**
+   - Click the "Erase" button to remove the stickman from the canvas.
+
+4. **Quit:**
+   - Click the "Quit" button to exit the program.
+
+## Credits
+
+1. John Zelle: Imported Button class.
+2. Random: Imported for color selection.
+3. Graphics: Imported for GUI components.
+
+## Installation
+
+To run the program, make sure you have Python installed. Additionally, you need the `graphics` library. You can install it using:
+
+```bash
+pip install graphics.py
